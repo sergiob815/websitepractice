@@ -41,68 +41,63 @@ header, footer {
         margin: 5px;
         padding: 5px;
         width: 100%;
-        text-align: center;
-    }
-
-    img {
-            max-width: 100%;
-    }    
-
-   
-
-    .character img{
+        text-align: center; 
         max-width: 50%;
         float: left;
     }
+    
+   
+    img {
+            max-width: 100%;
+    }    
+    
+    @media (min-width: 1000px) {
+                body {
+                    text-align: left;
+                }
+        
+                header h1 {
+                width: 70%;  
+                }
+        
+            main {
+                width: 68%;
+                display: inline-block;
+                padding: 10px;
+                font-size: 12px;
+            } 
+        
+            aside{
+                width: 27%;
+                display: inline-block ;
+                vertical-align: top;
+                padding: 10px;
+            } 
+            } 
+        
+        
+    @media( min-width: 1200px) {
+                body {
+                    text-align: left;
+                }
 
-    
-@media (min-width: 1000px) {
-            body {
-                text-align: left;
-            }
-    
-            header h1 {
-              width: 70%;  
-            }
-    
-          main {
-            width: 68%;
-            display: inline-block;
-            padding: 10px;
-            font-size: 12px;
-         } 
-    
-         aside{
-            width: 27%;
-            display: inline-block ;
-            vertical-align: top;
-            padding: 10px;
-         } 
-         } 
-    
-    
-@media( min-width: 1200px) {
-            body {
-                text-align: left;
-            }
+                header h1 {
+                width: 70%;  
+                }
 
-            header h1 {
-            width: 70%;  
-            }
+            main {
+                width: 68%;
+                display: inline-block;
+                padding: 10px;
+                font-size: 12px;
+            } 
 
-        main {
-            width: 68%;
-            display: inline-block;
-            padding: 10px;
-            font-size: 12px;
-        } 
-
-        aside{
-            width: 27%;
-            display: inline-block ;
-            vertical-align: top;
-            padding: 10px;
-        } 
-        } 
+            aside{
+                width: 27%;
+                display: inline-block ;
+                vertical-align: top;
+                padding: 10px;
+            } 
+            } 
 
     
